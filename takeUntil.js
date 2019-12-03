@@ -31,7 +31,6 @@ const takeUntil = function(array, callback) {
 let data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
 
-
 let slice = x => x === -1;
 let comma = x => x === ",";
 
@@ -43,6 +42,3 @@ assertArraysEqual(foundAgain, ["I've", "been", "to", "Hollywood"]);
 
 
 
-// [ 1, 2, 5, 7, 2 ]
-// ---
-// [ 'I\'ve', 'been', 'to', 'Hollywood' ]
